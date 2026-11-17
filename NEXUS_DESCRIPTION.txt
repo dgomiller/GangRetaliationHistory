@@ -1,0 +1,47 @@
+[size=5][b]Gang Retaliation History[/b][/size]
+[color=#D4D4D8]A companion mod for [url=https://www.nexusmods.com/cyberpunk2077/mods/36235][b]Gang Retaliation[/b][/url] that adds a [b]Nemesis History[/b] screen, reached from the [b]HISTORY[/b] entry at the end of the view switcher on the Nemeses screen. Look back at everything that has happened to your Nemeses and their gangs: who escaped, who was promoted, who died, which gangs went to war.
+
+It does [b]not[/b] modify Gang Retaliation. It reads the messages the mod already shows you and keeps them in order, so the history covers what happens [b]after you install it[/b].[/color]
+
+[size=4][b]What you get[/b][/size]
+[color=#D4D4D8][list]
+[*][b]Full History[/b] tab: an [i]All History[/i] card and one card per gang. Pick one to see every event or just that gang's events.
+[*]One tab per gang: an [i]All Gang History[/i] card, then its members, alive first by rank and then the fallen. Pick a member to see only their events.
+[*]A timeline from oldest to newest with a day label for each day, opening at the newest event, with colored tags: DEATH, RAID, ARRESTED, RELEASED, AMBUSH, BACKUP, ESCAPED, PROMOTED, NEW FACE, FEUD, POWER VACUUM, RETURNED, TRAIT, WAR, TERRITORY, STRONGHOLD, WEAPON.
+[*]Mouse wheel scrolls the timeline and the card list. A / D switch tabs. Esc goes back.
+[*]A plain text [b]history.log[/b] of every message, stored in a [b]language-neutral[/b] form, so the whole history re-renders in whatever language the game is using (switch English / Spanish and every sentence follows). Older logs are converted automatically.
+[*]English and Spanish, following your game language, using the same localization setup as Gang Retaliation.
+[/list][/color]
+
+[size=4][b]Requirements[/b][/size]
+[color=#D4D4D8][list]
+[*][url=https://www.nexusmods.com/cyberpunk2077/mods/36235]Gang Retaliation[/url] [b]1.4.5 or newer[/b] (older versions: use History 1.1.1) and everything it requires: Cyber Engine Tweaks, RED4ext, redscript, Codeware, ArchiveXL, TweakXL and Mod Settings.
+[*]Cyberpunk 2077 2.5.
+[/list][/color]
+
+[size=4][b]Installation[/b][/size]
+[color=#D4D4D8][b]Automatic:[/b] install with Vortex Mod Manager.
+
+[b]Manual:[/b] extract the download into your Cyberpunk 2077 folder. It adds an archive in [i]archive\pc\mod[/i], three script files in [i]r6\scripts\GangRetaliationHistory[/i] and a Cyber Engine Tweaks mod folder.
+
+Load a save and give it a few seconds, then open the Nemeses screen and pick HISTORY in the switcher (GANGS | TERRITORY | ARSENAL | HISTORY).[/color]
+
+[size=4][b]Optional file: Expanded Names[/b][/size]
+[color=#D4D4D8]Gang Retaliation picks Nemesis names, handles and titles from fairly short lists, so names repeat (and get numerals like "Static II"). The optional [b]Expanded Names[/b] file extends every list to roughly 40-50 entries. It is published with NovaAntonsito's permission. It [b]replaces[/b] one of Gang Retaliation's files (modules/names.lua, data only; his code in it is unchanged), so install it only on the Gang Retaliation version it was built for (1.3.3 to 1.4.0) and read its README first. Updating Gang Retaliation restores the original file. This mod works the same with or without it.[/color]
+
+[size=4][b]Uninstallation[/b][/size]
+[color=#D4D4D8]Remove the mod in Vortex, or delete the three paths above. Your history.log lives only in the mod's data folder, so copy it first if you want to keep it. Gang Retaliation is not affected.[/color]
+
+[size=4][b]Known limitations[/b][/size]
+[color=#D4D4D8][list]
+[*]History starts when you install the mod. Earlier events are not recovered.
+[*]Only messages Gang Retaliation actually shows are recorded. The newest 600 events per campaign are kept on the screen.
+[*]Reopen the screen to see new events.
+[*]Nemesis titles ("the Usurper" / "el Usurpador") live inside Gang Retaliation's own data, which this mod cannot read, so they are shown as recorded. Everything else in a sentence follows the game language.
+[*]It depends on a few public parts of Gang Retaliation. If an update to it changes them, this mod may stop working or fail to compile until it is updated. If you get a redscript compilation error after updating Gang Retaliation, remove the r6\scripts\GangRetaliationHistory folder until a new version is out.
+[/list][/color]
+
+[size=4][b]Credits[/b][/size]
+[color=#D4D4D8][b]NovaAntonsito[/b] for Gang Retaliation, which this mod builds on. psiberx for Codeware and TweakXL; jac3km4 and the redscript team; the Cyber Engine Tweaks and RED4ext teams; the WolvenKit team and the REDmodding wiki. The Ping mod by theCyanideX was a reference for how the game's scroll widgets fit together; this mod's code is separately written.
+
+Built by RedFalcon with AI assistance (Claude).[/color]
